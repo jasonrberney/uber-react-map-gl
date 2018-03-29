@@ -18,8 +18,7 @@
             "type": "background",
             "paint": {
                 "background-color": "#dedede"
-            },
-            "interactive": true
+            }
         },
         {
             "id": "landuse_overlay_national_park",
@@ -34,8 +33,7 @@
             "paint": {
                 "fill-color": "#d2edae",
                 "fill-opacity": 0.75
-            },
-            "interactive": true
+            }
         },
         {
             "id": "landuse_park",
@@ -49,8 +47,7 @@
             ],
             "paint": {
                 "fill-color": "#d2edae"
-            },
-            "interactive": true
+            }
         },
         {
             "id": "waterway",
@@ -86,8 +83,7 @@
                         ]
                     ]
                 }
-            },
-            "interactive": true
+            }
         },
         {
             "id": "water",
@@ -96,8 +92,7 @@
             "source-layer": "water",
             "paint": {
                 "fill-color": "#a0cfdf"
-            },
-            "interactive": true
+            }
         },
         {
             "id": "building",
@@ -106,11 +101,9 @@
             "source-layer": "building",
             "paint": {
                 "fill-color": "#d6d6d6"
-            },
-            "interactive": true
+            }
         },
         {
-            "interactive": true,
             "layout": {
                 "line-cap": "butt",
                 "line-join": "miter"
@@ -169,7 +162,6 @@
             "source-layer": "road"
         },
         {
-            "interactive": true,
             "layout": {
                 "line-cap": "butt",
                 "line-join": "miter"
@@ -225,7 +217,6 @@
             "source-layer": "road"
         },
         {
-            "interactive": true,
             "layout": {
                 "line-cap": "round",
                 "line-join": "round"
@@ -281,7 +272,6 @@
             "source-layer": "road"
         },
         {
-            "interactive": true,
             "layout": {
                 "line-cap": "round",
                 "line-join": "round"
@@ -334,75 +324,6 @@
             "source-layer": "road"
         },
         {
-            "interactive": true,
-            "layout": {
-                "line-cap": "butt",
-                "line-join": "miter"
-            },
-            "filter": [
-                "all",
-                [
-                    "==",
-                    "$type",
-                    "LineString"
-                ],
-                [
-                    "all",
-                    [
-                        "in",
-                        "class",
-                        "motorway_link",
-                        "street",
-                        "street_limited",
-                        "service",
-                        "track",
-                        "pedestrian",
-                        "path",
-                        "link"
-                    ],
-                    [
-                        "==",
-                        "structure",
-                        "bridge"
-                    ]
-                ]
-            ],
-            "type": "line",
-            "source": "mapbox",
-            "id": "bridge_minor case",
-            "paint": {
-                "line-color": "#dedede",
-                "line-width": {
-                    "base": 1.6,
-                    "stops": [
-                        [
-                            12,
-                            0.5
-                        ],
-                        [
-                            20,
-                            10
-                        ]
-                    ]
-                },
-                "line-gap-width": {
-                    "base": 1.55,
-                    "stops": [
-                        [
-                            4,
-                            0.25
-                        ],
-                        [
-                            20,
-                            30
-                        ]
-                    ]
-                }
-            },
-            "source-layer": "road"
-        },
-        {
-            "interactive": true,
             "layout": {
                 "line-cap": "butt",
                 "line-join": "miter"
@@ -467,7 +388,6 @@
             "source-layer": "road"
         },
         {
-            "interactive": true,
             "layout": {
                 "line-cap": "round",
                 "line-join": "round"
@@ -522,7 +442,6 @@
             "source-layer": "road"
         },
         {
-            "interactive": true,
             "layout": {
                 "line-cap": "round",
                 "line-join": "round"
@@ -574,7 +493,6 @@
             "source-layer": "road"
         },
         {
-            "interactive": true,
             "layout": {
                 "line-cap": "round",
                 "line-join": "round"
@@ -622,7 +540,6 @@
             "source-layer": "admin"
         },
         {
-            "interactive": true,
             "minzoom": 5,
             "layout": {
                 "icon-image": "{maki}-11",
@@ -673,7 +590,6 @@
             "source-layer": "poi_label"
         },
         {
-            "interactive": true,
             "layout": {
                 "symbol-placement": "line",
                 "text-field": "{name_en}",
@@ -725,7 +641,6 @@
             "source-layer": "road_label"
         },
         {
-            "interactive": true,
             "minzoom": 8,
             "layout": {
                 "text-field": "{name_en}",
@@ -777,7 +692,6 @@
             "source-layer": "place_label"
         },
         {
-            "interactive": true,
             "layout": {
                 "text-field": "{name_en}",
                 "text-font": [
@@ -824,7 +738,6 @@
             "source-layer": "place_label"
         },
         {
-            "interactive": true,
             "layout": {
                 "text-field": "{name_en}",
                 "text-font": [
