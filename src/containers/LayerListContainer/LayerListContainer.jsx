@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import LayerList from '../../components/LayerList/LayerList.jsx'
 import {connect} from 'react-redux'
-import { changeLayerStylePaint} from '../../redux/reducers.jsx'
+import { changeLayerStylePaint} from '../../redux/reducers/uberMap.jsx'
 
 class LayerListContainer extends Component {
     constructor(props) {

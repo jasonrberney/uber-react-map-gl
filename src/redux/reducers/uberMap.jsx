@@ -1,4 +1,4 @@
-import style from '../components/UberMap/UberMapStyle.jsx'
+import style from '../../components/UberMap/UberMapStyle.jsx'
 
 const UPDATE_LAT_LNG = 'UPDATE_LAT_LNG'
 const ADD_REACTMAPGL_STYLE = 'ADD_REACTMAPGL_STYLE'

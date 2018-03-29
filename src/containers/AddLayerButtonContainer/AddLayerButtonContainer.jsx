@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
 import {connect} from 'react-redux'
-import {addLayer, addSource} from '../../redux/reducers.jsx'
+import {addLayer, addSource} from '../../redux/reducers/uberMap.jsx'
 import AddLayerButton from '../../components/AddLayerButton/AddLayerButton.jsx'
 
 class AddLayerButtonContainer extends Component {

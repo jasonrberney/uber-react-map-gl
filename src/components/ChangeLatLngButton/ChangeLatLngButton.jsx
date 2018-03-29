@@ -1,7 +1,7 @@
 import React, {Component} from 'react'
 import {connect} from 'react-redux'
 import {dispatch} from 'redux'
-import {updateLatLng} from '../../redux/reducers.jsx'
+import {updateLatLng} from '../../redux/reducers/uberMap.jsx'
 
 
 class ChangeLatLngButton extends Component {

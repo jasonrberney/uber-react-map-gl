@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import UberMapContainer from './containers/UberMapContainer/UberMapContainer.jsx';
 import {createStore} from 'redux';
 import {Provider} from 'react-redux';
-import viewport from './redux/reducers.jsx'
+import viewport from './redux/reducers/uberMap.jsx'
 
 
 const store = createStore(viewport);

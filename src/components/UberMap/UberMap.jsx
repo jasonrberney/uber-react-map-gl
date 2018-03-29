@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import ReactMapGL from 'react-map-gl'
 import {connect} from 'react-redux'
-import {updateLatLng, addReactMapGLStyle} from '../../redux/reducers.jsx'
+import {updateLatLng, addReactMapGLStyle} from '../../redux/reducers/uberMap.jsx'
 import {dispatch} from 'redux'
 import ChangeLatLngButton from '../ChangeLatLngButton/ChangeLatLngButton.jsx'
 import AddLayerButtonContainer from '../../containers/AddLayerButtonContainer/AddLayerButtonContainer.jsx'
